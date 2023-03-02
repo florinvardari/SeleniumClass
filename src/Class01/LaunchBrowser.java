@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LaunchBrowser {
     public static void main(String[] args) throws InterruptedException {
-     // tell your project where the webdriver is located.
+        // tell your project where the webdriver is located.
         System.setProperty("webdriver.chrome.driver","Drivers/chromedriver");
 
         //create an instance of WebDriver
@@ -16,8 +16,8 @@ public class LaunchBrowser {
         driver.get("https://www.google.com/");
 
         // get the url that is there in the browser
-       String URL=driver.getCurrentUrl();
-       // print url
+        String URL=driver.getCurrentUrl();
+        // print url
         System.out.println(URL);
 
         // get the title of the webpage
